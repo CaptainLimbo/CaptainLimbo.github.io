@@ -32,7 +32,7 @@ My research interests are user context sensing in AR/VR and the use of machine l
 
 - **IPSN24** L. Duan, Y. Chen, **Z. Qu**, M. McGrath, E. Ehmke, M. Gorlatova, BiGuide: A Bi-Level Data Acquisition Guidance for Object Detection on Mobile Devices. In Proc. ACM/IEEE IPSN, Hong Kong, China, May 2024. **(21.5% acceptance rate)**
 
-= **ISMAR24** **Z. Qu**, Attention-Safe Augmented Reality System with Edge Computing. In IEEE ISMAR-Adjunct, Oct. 2024.  (Best Doctoral Consortium Presentation Honorable Mention)
+- **ISMAR24** **Z. Qu**, Attention-Safe Augmented Reality System with Edge Computing. In IEEE ISMAR-Adjunct, Oct. 2024.  (Best Doctoral Consortium Presentation Honorable Mention)
 
 - **IEEEVR24** R. Byrne, **Z. Qu**, C. Fronk, S. Eom, T. Scargill, M. Gorlatova, AR Simulations in VR: The Case for Environmental Awareness. In Proc. IEEE VRW, Mar. 2024.
 
