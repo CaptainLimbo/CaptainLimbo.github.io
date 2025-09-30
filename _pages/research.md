@@ -9,7 +9,6 @@ Here are selected research projects. For publications, see the Publications sect
 
 # Modeling Situational Awareness in AR-Guided CPR
 
-
 <div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
 	<img src="{{ '/images/cpr/teaser.png' | relative_url }}" alt="AR-Guided CPR situational awareness study teaser" style="max-width: 900px; width: 100%; height: auto;">
 </div>
@@ -40,7 +39,7 @@ Here are selected research projects. For publications, see the Publications sect
 
 ## AR Trail Making Test (AR-TMT) Study
 <div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
-	<img src="{{ '/images/ar_tmt/teaser.png' | relative_url }}" alt="AR Trail Making Test study teaser" style="max-width: 900px; width: 100%; height: auto;">
+	<img src="{{ '/images/ar-tmt/teaser.png' | relative_url }}" alt="AR Trail Making Test study teaser" style="max-width: 900px; width: 100%; height: auto;">
 </div>
 - In this work we developed an AR Trail Making Test (AR-TMT), an AR adaptation of the Trail Making Test that spatially renders targets for sequential selection on the Magic Leap 2. We implemented distractions in three categories: top-down, bottom-up, and spatial distraction based on Wolfe's Guided Search model, and captured performance, gaze, motor behavior, and subjective load measures to analyze attention and behavior. We found that top-down distraction degraded performance through semantic interference, while bottom-up distraction disrupted initial attentional engagement.
 
