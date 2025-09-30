@@ -42,11 +42,11 @@ AI-assisted safe Augmented Reality (AR) systems, using eye tracking and machine 
 
 - **ISMAR24** **Z. Qu**, R. Byrne, and M. Gorlatova, "Looking" into Attention Patterns in Extended Reality: An Eye Tracking–Based Study. In Proc. IEEE ISMAR, Oct. 2024. [Code Repo](https://github.com/Duke-I3T-Lab/XR_Attention_Sudoku); [Video Demo](https://www.youtube.com/watch?v=GmX4YkK8b2I)
 
-- **IPSN24** L. Duan, Y. Chen, **Z. Qu**, M. McGrath, E. Ehmke, M. Gorlatova, BiGuide: A Bi-Level Data Acquisition Guidance for Object Detection on Mobile Devices. In Proc. ACM/IEEE IPSN, May 2024. **(21.5% acceptance rate)** **IEEE/ACM IPSN Best Research Artifact Runner-up Award** [Code Repo](https://github.com/BiGuideCollection/BiGuide)
+- **IPSN24** L. Duan, Y. Chen, **Z. Qu**, M. McGrath, E. Ehmke, M. Gorlatova, BiGuide: A Bi-Level Data Acquisition Guidance for Object Detection on Mobile Devices. In Proc. ACM/IEEE IPSN, May 2024. **(21.5% acceptance rate)** **IEEE/ACM IPSN Best Research Artifact Runner-up Award**. [Code Repo](https://github.com/BiGuideCollection/BiGuide)
 
 ## Workshop Proceedings
 - **IEEEVRW24** S. Eom, T. Ma, N. Vutakuri, A. Du, **Z. Qu**, J. Jackson, M. Gorlatova, Did You Do Well? Real-Time Personalized Feedback on Catheter Placement in Augmented Reality-Assisted Neurosurgical Training. In Proc. IEEE VR Abstracts and Workshops, Mar. 2024.
-- **ISMARDC24** **Z. Qu**, Doctoral Consortium: Attention-Safe Augmented Reality System with Edge Computing. In Proc. IEEE ISMAR-Adjunct, Oct. 2024. **Best Doctoral Consortium Presentation Honorable Mention.**
+- **ISMARDC24** **Z. Qu**, Doctoral Consortium: Attention-Safe Augmented Reality System with Edge Computing. In Proc. IEEE ISMAR-Adjunct, Oct. 2024. **Best Doctoral Consortium Presentation Honorable Mention**.
 
 ## Conference Demonstrations and Poster Presentations
 - **XRSecurity25** **Z. Qu**, T. Hu, M. Gorlatova, Demo: More Than Just Compressions: Attentional Tunneling in Augmented Reality--Guided Cardiopulmonary Resuscitation. To be presented at the First Workshop on Enhancing Security, Privacy, and Trust in Extended Reality (XR) Systems, Oct. 2025. [Video Demo](https://www.youtube.com/watch?v=2MfYJF6sW8A)
