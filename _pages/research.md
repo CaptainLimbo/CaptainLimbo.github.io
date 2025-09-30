@@ -5,17 +5,6 @@ layout: default
 author_profile: true
 ---
 
-<!-- Add spacing between project sections -->
-<style>
-  .project-block h1,
-  .project-block h2 {
-    margin-top: 2.5rem;
-  }
-  .project-block h1:first-of-type {
-    margin-top: 0; /* keep top tight */
-  }
-</style>
-
 Here are selected research projects. For publications, see the Publications section.
 
 <div class="project-block">
