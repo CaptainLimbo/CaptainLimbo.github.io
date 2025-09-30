@@ -7,10 +7,8 @@ author_profile: true
 
 Here are selected research projects. For publications, see the Publications section.
 
-### Modeling Situational Awareness in AR-Guided CPR
-- Lab: Intelligent Interactive Internet of Things (I^3T) Lab
-- Institution: Duke University
-- Duration: Oct. 2024 — Oct. 2025
+# Modeling Situational Awareness in AR-Guided CPR
+
 
 - Designed and implemented an AR application for AR-guided cardiopulmonary resuscitation (CPR), along with simulated bleeding and vomiting incidents to evaluate situational awareness of CPR providers using AR guidance.
 - Identified that slower and shorter saccades and longer time fixated on virtual content were correlated with situational awareness based on whether the incidents were detected and handled properly.

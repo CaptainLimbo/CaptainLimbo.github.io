@@ -1,16 +1,55 @@
 <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 <script>
 	(function() {
+		function getDocEl() {
+			return document.scrollingElement || document.documentElement;
+		}
+
+		function ensureSpacers(desiredTop) {
+			var docEl = getDocEl();
+			var maxScroll = Math.max(0, docEl.scrollHeight - window.innerHeight);
+			var needTop = Math.max(0, -desiredTop);
+			var needBottom = Math.max(0, desiredTop - maxScroll);
+
+			var topSpacer = document.getElementById('anchor-scroll-spacer-top');
+			var bottomSpacer = document.getElementById('anchor-scroll-spacer-bottom');
+			if (!topSpacer) {
+				topSpacer = document.createElement('div');
+				topSpacer.id = 'anchor-scroll-spacer-top';
+				topSpacer.style.cssText = 'width:100%;height:0;visibility:hidden;pointer-events:none;';
+				document.body.insertBefore(topSpacer, document.body.firstChild);
+			}
+			if (!bottomSpacer) {
+				bottomSpacer = document.createElement('div');
+				bottomSpacer.id = 'anchor-scroll-spacer-bottom';
+				bottomSpacer.style.cssText = 'width:100%;height:0;visibility:hidden;pointer-events:none;';
+				document.body.appendChild(bottomSpacer);
+			}
+
+			// Add a small buffer (16px) so scrollTo has headroom
+			if (needTop > 0) topSpacer.style.height = (needTop + 16) + 'px';
+			if (needBottom > 0) bottomSpacer.style.height = (needBottom + 16) + 'px';
+		}
+
 		function centerScrollTo(el) {
 			if (!el) return;
-			// Account for fixed masthead height if present
 			var masthead = document.querySelector('.masthead');
 			var offsetTop = el.getBoundingClientRect().top + window.pageYOffset;
-			var targetY = offsetTop - (window.innerHeight / 2) + (el.offsetHeight / 2);
-			if (masthead) {
-				targetY -= masthead.offsetHeight;
-			}
-			window.scrollTo({ top: Math.max(targetY, 0), behavior: 'smooth' });
+			var desiredTop = offsetTop - (window.innerHeight / 2) + (el.offsetHeight / 2);
+			if (masthead) desiredTop -= masthead.offsetHeight;
+
+			ensureSpacers(desiredTop);
+
+			// Recompute after spacers applied
+			var newOffsetTop = el.getBoundingClientRect().top + window.pageYOffset;
+			var targetY = newOffsetTop - (window.innerHeight / 2) + (el.offsetHeight / 2);
+			if (masthead) targetY -= masthead.offsetHeight;
+
+			var docEl = getDocEl();
+			var maxScroll = Math.max(0, docEl.scrollHeight - window.innerHeight);
+			targetY = Math.min(Math.max(targetY, 0), maxScroll);
+
+			window.scrollTo({ top: targetY, behavior: 'smooth' });
 		}
 
 		function isSamePageLink(a) {
@@ -24,14 +63,12 @@
 			if (!hash) return;
 			var id = decodeURIComponent(hash.replace('#', ''));
 			var el = document.getElementById(id);
-			// Support anchors implemented as <span class="anchor" id="...">
-			if (!el) el = document.querySelector('[id="' + CSS.escape(id) + '"]');
+			if (!el) el = document.querySelector('[id="' + (window.CSS && CSS.escape ? CSS.escape(id) : id) + '"]');
 			if (!el) return;
-			// Delay slightly to let browser apply default jump then recenter
+			// Let browser jump first (so the URL updates and default behavior occurs), then recenter
 			setTimeout(function(){ centerScrollTo(el); }, 10);
 		}
 
-		// Intercept in-page anchor clicks
 		document.addEventListener('click', function (e) {
 			var a = e.target.closest('a[href*="#"]');
 			if (!a || !isSamePageLink(a)) return;
@@ -42,7 +79,6 @@
 			handleHash(hash);
 		}, true);
 
-		// On load (if there is a hash) and on hash changes
 		window.addEventListener('load', function(){ handleHash(window.location.hash); });
 		window.addEventListener('hashchange', function(){ handleHash(window.location.hash); });
 	})();
