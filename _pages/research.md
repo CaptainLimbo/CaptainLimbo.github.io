@@ -10,18 +10,43 @@ Here are selected research projects. For publications, see the Publications sect
 # Modeling Situational Awareness in AR-Guided CPR
 
 
-- Designed and implemented an AR application for AR-guided cardiopulmonary resuscitation (CPR), along with simulated bleeding and vomiting incidents to evaluate situational awareness of CPR providers using AR guidance.
-- Identified that slower and shorter saccades and longer time fixated on virtual content were correlated with situational awareness based on whether the incidents were detected and handled properly.
-- Designed a graph neural network that represents fixations as nodes and spatial-temporal relationships between fixations as edges, achieving 83% accuracy in predicting situational awareness based on 7 seconds of eye tracking data.
+<div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
+	<img src="{{ '/images/cpr/teaser.png' | relative_url }}" alt="AR-Guided CPR situational awareness study teaser" style="max-width: 900px; width: 100%; height: auto;">
+</div>
+
+- In this work, we aim to model situational awareness though eye tracking data captured on a Magic Leap 2 device, in an AR app designed for cardiopulmonary resuscitation (CPR) guidance. To evaluate situational awareness, we designed two realistic, unexpected incidents, i.e. the patient bleeding or vomiting during the CPR procedure, to observe the participants' response. Based on their responses we label them with good or poor SA labels (with 24 out of 60 cases labeled "poor") and trained a graph neural network that predicts such label at 83% accuracy.
+
 - Paper accepted to IEEE ISMAR 2025, a leading conference in the field of augmented and virtual reality.
 
-### Analyzing and Predicting the Distraction Potential of Augmented Reality
-- Lab: Intelligent Interactive Internet of Things (I^3T) Lab
-- Institution: Duke University
-- Duration: July 2023 — Oct. 2024
+##### Links to related resources:
+- Video Demo: [YouTube Link](https://www.youtube.com/watch?v=wGF_hvBP-hg)
+- Paper Preprint: [arXiv Link](https://arxiv.org/abs/2508.05025)
+- Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/AR_CPR_SA)
 
-- Developed a Sudoku helper application for AR and VR to study user attention, incorporating step-by-step guidance and controlled visual distractions.
-- Conducted a comparative analysis of attention patterns using eye tracking in AR and VR, revealing that VR simulations induced a higher perceptual load and reduced user focus, while AR increased cognitive load, as indicated by increased fixation duration and decreased fixation rate.
-- Helped to build an AR version of the Trail Making Test (TMT) to assess the impact of different distraction types (top-down, bottom-up, and spatial), showing that top-down distractions (task-relevant) caused the most significant performance degradation, while bottom-up distractions (salient but task-irrelevant) had only early-stage effects. Eye tracking data indicated that top-down distractions led to an increased fixation rate while bottom-up distractions resulted in lower gaze entropy, suggesting effective suppression of irrelevant stimuli.
-- Trained time-series Transformers on eye tracking data to predict the presence of distractors and assess user attentional control.
-- Papers accepted to IEEE ISMAR 2024 and ACM VRST 2025.
+# Analyzing and Predicting the Distraction Potential of Augmented Reality
+
+## Sudoku Attention Study in AR and VR
+<div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
+	<img src="{{ '/images/sudoku/teaser.png' | relative_url }}" alt="AR/VR Sudoku attention study teaser" style="max-width: 900px; width: 100%; height: auto;">
+</div>
+- In this work we developed two Sudoku Helper apps in AR and VR that assist the user to solve a Sudoku puzzle by overlaying hints on top of it. Additionally, we added a distractor in the form of a dancing Duke Blue Devil to investigate how the users' gaze behavior corresponds to (1) the modality, i.e. whether it is AR or VR and (2) the presence of distraction. Through a user study with 38 users in total, we identified that VR induced higher perceptual load and decreased user focus, while cognitive load increased in AR. With the data collected we also trained ML models to predict the existence of distractors and user attention control ability, showing performance drops when transferring between AR and VR, validating the gap between the two.
+
+- Paper was accepted to IEEE ISMAR 2024.
+
+##### Links to related resources:
+- Video Demo: [YouTube Link](https://www.youtube.com/watch?v=GmX4YkK8b2I)
+- Paper: [IEEE Link](https://ieeexplore.ieee.org/abstract/document/10765374)
+- Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/XR_Attention_Sudoku)
+
+## AR Trail Making Test (AR-TMT) Study
+<div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
+	<img src="{{ '/images/ar_tmt/teaser.png' | relative_url }}" alt="AR Trail Making Test study teaser" style="max-width: 900px; width: 100%; height: auto;">
+</div>
+- In this work we developed an AR Trail Making Test (AR-TMT), an AR adaptation of the Trail Making Test that spatially renders targets for sequential selection on the Magic Leap 2. We implemented distractions in three categories: top-down, bottom-up, and spatial distraction based on Wolfe's Guided Search model, and captured performance, gaze, motor behavior, and subjective load measures to analyze attention and behavior. We found that top-down distraction degraded performance through semantic interference, while bottom-up distraction disrupted initial attentional engagement.
+
+- Paper (led by my colleague Sihun Baek) was accepted to ACM VRST 2025.
+
+##### Links to related resources:
+- Video Demo: [YouTube Link](https://www.youtube.com/watch?v=-CHhz_t5S40)
+- Paper: [arXiv Link](https://arxiv.org/pdf/2509.13468)
+- Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/AR-TMT)
