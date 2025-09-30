@@ -58,6 +58,24 @@ AI-assisted safe Augmented Reality (AR) systems, using eye tracking and machine 
 - *2024.10* **Best Doctoral Consortium Presentation Honorable Mention** at ISMAR 24 Doctoral Consortium, Greater Seattle Area, USA. 
 - *2024.03* **Best Applied AI Poster Award** at NSF AI Spring School, San Antonio, TX, USA.
 
+<span class='anchor' id='service-teaching-mentorship'></span>
+
+# Service, Teaching and Mentorship
+## Reviewer
+- ACM UbiComp/ISWC 2025
+- ACM Transactions on Sensor Networks 2024
+
+## Teaching Assistant
+- **COMPSCI 371**: Elements of Machine Learning, Fall 2023
+- **COMPSCI 370D**: Intro to AI, Spring 2023
+
+## Research Supervision
+| Name              | Position  | Duration               |
+| ----------------- | --------- | ---------------------- |
+| Ahmad Choudhary   | Undergrad | Jan. 2025 - present    |
+| Fareeda Akewusola | Undergrad | May 2024 - July 2024   |
+| Ryleigh Byrne     | Undergrad | Oct. 2023 - April 2024 |
+
 
 <!-- # 📖 Educations
 - *2022.08 - present*, Ph.D. in Computer Science, Duke University
