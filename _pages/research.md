@@ -5,6 +5,17 @@ layout: default
 author_profile: true
 ---
 
+<!-- Add spacing between project sections -->
+<style>
+  .project-block h1,
+  .project-block h2 {
+    margin-top: 2.5rem;
+  }
+  .project-block h1:first-of-type {
+    margin-top: 0; /* keep top tight */
+  }
+</style>
+
 Here are selected research projects. For publications, see the Publications section.
 
 <div class="project-block">
@@ -25,9 +36,6 @@ Here are selected research projects. For publications, see the Publications sect
 - Paper Preprint: [arXiv Link](https://arxiv.org/abs/2508.05025)
 - Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/AR_CPR_SA)
 
-</div>
-
-<div class="project-block">
 
 # Analyzing and Predicting the Distraction Potential of Augmented Reality
 
@@ -44,9 +52,7 @@ Here are selected research projects. For publications, see the Publications sect
 - Paper: [IEEE Link](https://ieeexplore.ieee.org/abstract/document/10765374)
 - Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/XR_Attention_Sudoku)
 
-</div>
 
-<div class="project-block">
 
 ## AR Trail Making Test (AR-TMT) Study
 <div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
