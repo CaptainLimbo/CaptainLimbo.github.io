@@ -62,6 +62,7 @@ AI-assisted safe Augmented Reality (AR) systems, using eye tracking and machine 
 
 # Service, Teaching and Mentorship
 ## Reviewer
+- ACM VRST 2025
 - ACM UbiComp/ISWC 2025
 - ACM Transactions on Sensor Networks 2024
 
@@ -91,7 +92,7 @@ AI-assisted safe Augmented Reality (AR) systems, using eye tracking and machine 
     </tr>
     <tr>
       <td>Ryleigh Byrne</td>
-      <td>Undergrad</td>
+      <td>Research Associate</td>
       <td>Oct. 2023 - April 2024</td>
     </tr>
   </tbody>
