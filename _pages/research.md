@@ -7,6 +7,8 @@ author_profile: true
 
 Here are selected research projects. For publications, see the Publications section.
 
+<div class="project-block">
+
 # Modeling Situational Awareness in AR-Guided CPR
 
 
@@ -23,6 +25,10 @@ Here are selected research projects. For publications, see the Publications sect
 - Paper Preprint: [arXiv Link](https://arxiv.org/abs/2508.05025)
 - Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/AR_CPR_SA)
 
+</div>
+
+<div class="project-block">
+
 # Analyzing and Predicting the Distraction Potential of Augmented Reality
 
 ## Sudoku Attention Study in AR and VR
@@ -38,9 +44,13 @@ Here are selected research projects. For publications, see the Publications sect
 - Paper: [IEEE Link](https://ieeexplore.ieee.org/abstract/document/10765374)
 - Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/XR_Attention_Sudoku)
 
+</div>
+
+<div class="project-block">
+
 ## AR Trail Making Test (AR-TMT) Study
 <div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
-	<img src="{{ '/images/ar_tmt/teaser.png' | relative_url }}" alt="AR Trail Making Test study teaser" style="max-width: 900px; width: 100%; height: auto;">
+	<img src="{{ '/images/ar-tmt/teaser.png' | relative_url }}" alt="AR Trail Making Test study teaser" style="max-width: 900px; width: 100%; height: auto;">
 </div>
 - In this work we developed an AR Trail Making Test (AR-TMT), an AR adaptation of the Trail Making Test that spatially renders targets for sequential selection on the Magic Leap 2. We implemented distractions in three categories: top-down, bottom-up, and spatial distraction based on Wolfe's Guided Search model, and captured performance, gaze, motor behavior, and subjective load measures to analyze attention and behavior. We found that top-down distraction degraded performance through semantic interference, while bottom-up distraction disrupted initial attentional engagement.
 
@@ -50,3 +60,5 @@ Here are selected research projects. For publications, see the Publications sect
 - Video Demo: [YouTube Link](https://www.youtube.com/watch?v=-CHhz_t5S40)
 - Paper: [arXiv Link](https://arxiv.org/pdf/2509.13468)
 - Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/AR-TMT)
+
+</div>
