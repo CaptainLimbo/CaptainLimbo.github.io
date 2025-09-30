@@ -1,4 +1,52 @@
 <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+<script>
+	(function() {
+		function centerScrollTo(el) {
+			if (!el) return;
+			// Account for fixed masthead height if present
+			var masthead = document.querySelector('.masthead');
+			var offsetTop = el.getBoundingClientRect().top + window.pageYOffset;
+			var targetY = offsetTop - (window.innerHeight / 2) + (el.offsetHeight / 2);
+			if (masthead) {
+				targetY -= masthead.offsetHeight;
+			}
+			window.scrollTo({ top: Math.max(targetY, 0), behavior: 'smooth' });
+		}
+
+		function isSamePageLink(a) {
+			try {
+				var url = new URL(a.href, window.location.href);
+				return url.pathname === window.location.pathname && url.hash;
+			} catch (e) { return false; }
+		}
+
+		function handleHash(hash) {
+			if (!hash) return;
+			var id = decodeURIComponent(hash.replace('#', ''));
+			var el = document.getElementById(id);
+			// Support anchors implemented as <span class="anchor" id="...">
+			if (!el) el = document.querySelector('[id="' + CSS.escape(id) + '"]');
+			if (!el) return;
+			// Delay slightly to let browser apply default jump then recenter
+			setTimeout(function(){ centerScrollTo(el); }, 10);
+		}
+
+		// Intercept in-page anchor clicks
+		document.addEventListener('click', function (e) {
+			var a = e.target.closest('a[href*="#"]');
+			if (!a || !isSamePageLink(a)) return;
+			var hash = a.hash;
+			if (!hash) return;
+			e.preventDefault();
+			history.pushState(null, '', hash);
+			handleHash(hash);
+		}, true);
+
+		// On load (if there is a hash) and on hash changes
+		window.addEventListener('load', function(){ handleHash(window.location.hash); });
+		window.addEventListener('hashchange', function(){ handleHash(window.location.hash); });
+	})();
+	</script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
