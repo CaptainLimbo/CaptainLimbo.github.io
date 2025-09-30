@@ -24,12 +24,14 @@ AI-assisted safe Augmented Reality (AR) systems, using eye tracking and machine 
 [My CV (v. 2024.07)](../files/cv.pdf)
 
 <span class='anchor' id='news'></span>
+
 # 🔥 News
 - *2025.09*: &nbsp;🎉🎉  My (second-author) paper AR-TMT: Investigating the Role of Distraction Type and Attention Control in AR Visual Search* has been accepted to ACM VRST 2025!
 - *2025.08*: &nbsp;🎉🎉  My paper *Will You Be Aware? Eye Tracking–Based Modeling of Situational Awareness in Augmented Reality.* has been accepted to IEEE ISMAR 2025!
 - *2025.08*: &nbsp;🎉🎉  My (second-author) paper *Spatial Sensing Evaluation for Multiple XR Devices* has been accepted to IEEE ISMAR 2025!
 
 <span class='anchor' id='publications'></span>
+
 # 📝 Publications 
 ## Conference Proceedings
 - **VRST25** S. Baek, **Z. Qu**, and M. Gorlatova, AR-TMT: Investigating the Role of Distraction Type and Attention Control in AR Visual Search. To be presented at ACM VRST, Nov. 2025. [Code Repo](https://github.com/Duke-I3T-Lab/AR-TMT); [Video Demo](https://www.youtube.com/watch?v=-CHhz_t5S40)
@@ -50,7 +52,8 @@ AI-assisted safe Augmented Reality (AR) systems, using eye tracking and machine 
 - **XRSecurity25** **Z. Qu**, T. Hu, M. Gorlatova, Demo: More Than Just Compressions: Attentional Tunneling in Augmented Reality--Guided Cardiopulmonary Resuscitation. To be presented at the First Workshop on Enhancing Security, Privacy, and Trust in Extended Reality (XR) Systems, Oct. 2025. [Video Demo](https://www.youtube.com/watch?v=2MfYJF6sW8A)
 - **IEEEVRW24** R. Byrne, **Z. Qu**, C. Fronk, S. Eom, T. Scargill, M. Gorlatova, AR Simulations in VR: The Case for Environmental Awareness. In Proc. IEEE VR Abstracts and Workshops, Mar. 2024.
 
-<span class='anchor' id='honors'></span>
+<span class='anchor' id='honors-and-awards'></span>
+
 # 🎖 Honors and Awards
 - *2024.10* **Best Doctoral Consortium Presentation Honorable Mention** at ISMAR 24 Doctoral Consortium, Greater Seattle Area, USA. 
 - *2024.03* **Best Applied AI Poster Award** at NSF AI Spring School, San Antonio, TX, USA.
