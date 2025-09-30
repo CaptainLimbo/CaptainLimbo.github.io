@@ -21,7 +21,7 @@ I'm a PhD student in Computer Science at Duke University, in the Intelligent Int
 # Research Interest
 AI-assisted safe Augmented Reality (AR) systems, using eye tracking and machine learning for user context sensing, particularly sensing human attention. My research is oriented around building effective deep learning models with eye tracking data to detect suboptimal user attention patterns in AR and to integrate such models into AR systems to provide real-time feedback to users and mitigate potential safety risks by adaptively adjusting AR content. I'm also broadly interested in other aspects of safe AR systems, including but not limited to semantic sensing of the physical environment, securing AR-based human-robot collaboration and edge-assisted AR applications. 
 
-[My CV (v. 2025.09)](../files/cv.pdf)
+[My CV (v. 2024.07)](../files/cv.pdf)
 
 <span class='anchor' id='news'></span>
 
