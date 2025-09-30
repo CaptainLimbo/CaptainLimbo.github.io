@@ -79,5 +79,28 @@
 	})();
 	</script>
 
+<script>
+	// Prevent reload when clicking masthead links that target the current page path
+	(function(){
+		function samePath(a) {
+			try {
+				var u = new URL(a.href, window.location.href);
+				var ap = u.pathname.replace(/index\.html$/, '');
+				var cp = window.location.pathname.replace(/index\.html$/, '');
+				if (ap !== '/' && ap.endsWith('/')) ap = ap.slice(0, -1);
+				if (cp !== '/' && cp.endsWith('/')) cp = cp.slice(0, -1);
+				return ap === cp;
+			} catch(e) { return false; }
+		}
+		document.addEventListener('click', function(e){
+			var a = e.target.closest('.masthead a[href]');
+			if (!a) return;
+			if (samePath(a)) {
+				e.preventDefault();
+			}
+		}, true);
+	})();
+</script>
+
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
