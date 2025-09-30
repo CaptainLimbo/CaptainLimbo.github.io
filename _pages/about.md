@@ -70,11 +70,32 @@ AI-assisted safe Augmented Reality (AR) systems, using eye tracking and machine 
 - **COMPSCI 370D**: Intro to AI, Spring 2023
 
 ## Research Supervision
-| Name              | Position  | Duration               |
-| ----------------- | --------- | ---------------------- |
-| Ahmad Choudhary   | Undergrad | Jan. 2025 - present    |
-| Fareeda Akewusola | Undergrad | May 2024 - July 2024   |
-| Ryleigh Byrne     | Undergrad | Oct. 2023 - April 2024 |
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Position</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ahmad Choudhary</td>
+      <td>Undergrad</td>
+      <td>Jan. 2025 - present</td>
+    </tr>
+    <tr>
+      <td>Fareeda Akewusola</td>
+      <td>Undergrad</td>
+      <td>May 2024 - July 2024</td>
+    </tr>
+    <tr>
+      <td>Ryleigh Byrne</td>
+      <td>Undergrad</td>
+      <td>Oct. 2023 - April 2024</td>
+    </tr>
+  </tbody>
+</table>
 
 
 <!-- # 📖 Educations
