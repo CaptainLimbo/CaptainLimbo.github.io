@@ -7,6 +7,8 @@ author_profile: true
 
 Here are selected research projects. For publications, see the Publications section.
 
+<div class="project-block">
+
 # Modeling Situational Awareness in AR-Guided CPR
 
 <div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
@@ -21,6 +23,7 @@ Here are selected research projects. For publications, see the Publications sect
 - Video Demo: [YouTube Link](https://www.youtube.com/watch?v=wGF_hvBP-hg)
 - Paper Preprint: [arXiv Link](https://arxiv.org/abs/2508.05025)
 - Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/AR_CPR_SA)
+
 
 # Analyzing and Predicting the Distraction Potential of Augmented Reality
 
@@ -37,6 +40,8 @@ Here are selected research projects. For publications, see the Publications sect
 - Paper: [IEEE Link](https://ieeexplore.ieee.org/abstract/document/10765374)
 - Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/XR_Attention_Sudoku)
 
+
+
 ## AR Trail Making Test (AR-TMT) Study
 <div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
 	<img src="{{ '/images/ar-tmt/teaser.png' | relative_url }}" alt="AR Trail Making Test study teaser" style="max-width: 900px; width: 100%; height: auto;">
@@ -49,3 +54,5 @@ Here are selected research projects. For publications, see the Publications sect
 - Video Demo: [YouTube Link](https://www.youtube.com/watch?v=-CHhz_t5S40)
 - Paper: [arXiv Link](https://arxiv.org/pdf/2509.13468)
 - Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/AR-TMT)
+
+</div>
