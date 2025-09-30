@@ -6,10 +6,20 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a target="_self" href="{{ '/' | relative_url }}#about-me">Homepage</a></li>
           {% for link in site.data.navigation.main %}
-            {% assign link_path = link.url | replace: 'index.html', '' %}
+            {% assign link_url = link.url %}
+            {% assign link_has_hash = link_url contains '#' %}
+            {% assign link_path_naked = link_url | split: '#' | first | replace: 'index.html', '' %}
             {% assign page_path = page.url | replace: 'index.html', '' %}
-            {% if link_path == page_path or link_path == page_path | append: '/' or link_path | append: '/' == page_path %}
-              <li class="masthead__menu-item masthead__menu-item--active"><span aria-current="page">{{ link.title }}</span></li>
+            {%- comment -%} Normalize trailing slashes for comparison {%- endcomment -%}
+            {% assign lp = link_path_naked %}
+            {% if lp != '/' and lp != '' and lp | slice: -1 != '/' %}{% assign lp = lp | append: '/' %}{% endif %}
+            {% assign pp = page_path %}
+            {% if pp != '/' and pp != '' and pp | slice: -1 != '/' %}{% assign pp = pp | append: '/' %}{% endif %}
+
+            {% if link_has_hash == false and lp == pp %}
+              <li class="masthead__menu-item masthead__menu-item--active">
+                <a class="is-active" aria-current="page" target="_self" href="{{ link.url | relative_url }}" onclick="return false">{{ link.title }}</a>
+              </li>
             {% else %}
               <li class="masthead__menu-item"><a target="_self" href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
             {% endif %}
