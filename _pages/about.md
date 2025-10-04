@@ -40,7 +40,7 @@ AI-assisted safe Augmented Reality (AR) systems, using eye tracking and machine 
 
 - **ISMAR25b** T. Hu, **Z. Qu**, and M. Gorlatova, Spatial Sensing Evaluation for Multiple XR Devices. To be presented at IEEE ISMAR, Oct. 2025. [Code Repo](https://github.com/Duke-I3T-Lab/XR_Tracking_Evaluation)
 
-- **ISMAR24** **Z. Qu**, R. Byrne, and M. Gorlatova, "Looking" into Attention Patterns in Extended Reality: An Eye Tracking–Based Study. In Proc. IEEE ISMAR, Oct. 2024. [Code Repo](https://github.com/Duke-I3T-Lab/XR_Attention_Sudoku); [Video Demo](https://www.youtube.com/watch?v=GmX4YkK8b2I)
+- **ISMAR24** **Z. Qu**, R. Byrne, and M. Gorlatova, "Looking" into Attention Patterns in Extended Reality: An Eye Tracking–Based Study. In Proc. IEEE ISMAR, Oct. 2024. [Code Repo](https://github.com/Duke-I3T-Lab/XR_Attention_Sudoku); [Video Demo](https://www.youtube.com/watch?v=KJo9mlpy4hQ)
 
 - **IPSN24** L. Duan, Y. Chen, **Z. Qu**, M. McGrath, E. Ehmke, M. Gorlatova, BiGuide: A Bi-Level Data Acquisition Guidance for Object Detection on Mobile Devices. In Proc. ACM/IEEE IPSN, May 2024. **(21.5% acceptance rate)** **IEEE/ACM IPSN Best Research Artifact Runner-up Award**. [Code Repo](https://github.com/BiGuideCollection/BiGuide)
 
