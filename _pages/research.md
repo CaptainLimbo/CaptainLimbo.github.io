@@ -7,6 +7,22 @@ author_profile: true
 
 Here are selected research projects. For publications, see the Publications section.
 
+# Investigating Attentional Impact of AR-Guided Human-Robot Interaction
+
+<div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
+	<img src="{{ '/images/robot/robot_vis_example.jpg' | relative_url }}" alt="AR-guided human-robot interaction app" style="max-width: 900px; width: 100%; height: auto;">
+</div>
+
+- Human-robot interaction (HRI) is increasingly being supported by AR interfaces, which overlay robot state and intent information onto the physical environment. However, such AR interfaces may affect the users' awareness of the real world and cause unexpected trouble. In this work, we developed an AR-guided HRI application on the Magic Leap 2, in which robot state information, robot location, robot concept planning and intent are visualized in AR alongside task guidance for a user to perform a delivery task in a physical environment shared with a mobile robot. We further used eye tracking to investigate the impact of the AR interface on user attention and situational awareness during the interaction.
+
+<div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
+	<video src="{{ '/videos/robot_demo_video.mp4' | relative_url }}" controls style="max-width: 900px; width: 100%; height: auto;">
+		Your browser does not support the video tag.
+	</video>
+</div>
+
+<br>
+
 # Modeling Situational Awareness in AR-Guided CPR
 
 <div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
