@@ -15,13 +15,7 @@ Here are selected research projects. For publications, see the Publications sect
 
 - Human-robot interaction (HRI) is increasingly being supported by AR interfaces, which overlay robot state and intent information onto the physical environment. However, such AR interfaces may affect the users' awareness of the real world and cause unexpected trouble. In this work, we developed an AR-guided HRI application on the Magic Leap 2, in which robot state information, robot location, robot concept planning and intent are visualized in AR alongside task guidance for a user to perform a delivery task in a physical environment shared with a mobile robot. We further used eye tracking to investigate the impact of the AR interface on user attention and situational awareness during the interaction.
 
-<div style="text-align:center; margin: 0.5rem 0 1.25rem 0;">
-	<!-- Note: Ensure 'robot_demo_video.mp4' is not stored via Git LFS. GitHub Pages cannot serve LFS media content. -->
-	<video controls playsinline style="max-width: 900px; width: 100%; height: auto;">
-		<source src="{{ '/videos/robot_demo_video.mp4' | relative_url }}" type="video/mp4">
-		Your browser does not support the video tag.
-	</video>
-</div>
+- Video demo to be released soon.
 
 <br>
 
@@ -52,7 +46,7 @@ Here are selected research projects. For publications, see the Publications sect
 - Paper was accepted to IEEE ISMAR 2024.
 
 ##### Links to related resources:
-- Video Demo: [YouTube Link](https://www.youtube.com/watch?v=GmX4YkK8b2I)
+- Video Demo: [YouTube Link](https://www.youtube.com/watch?v=KJo9mlpy4hQ)
 - Paper: [IEEE Link](https://ieeexplore.ieee.org/abstract/document/10765374)
 - Code Repo: [GitHub Link](https://github.com/Duke-I3T-Lab/XR_Attention_Sudoku)
 
